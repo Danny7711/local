@@ -1,4 +1,5 @@
-let paragraphs = document.getElementsByClassName("paragraph");
-for (let i = 0; i < paragraphs.length; i++) {
-   paragraphs[i].textContent = "Обновленный текст";
-}
+const button = document.querySelector('button');
+
+button.addEventListener('click', () => {
+   alert('Button clicked!');
+});
