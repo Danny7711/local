@@ -1,5 +1,9 @@
-const button = document.querySelector('button');
+const box = document.querySelector('.box');
 
-button.addEventListener('click', () => {
-   alert('Button clicked!');
+box.addEventListener('mouseover', () => {
+   box.style.backgroundColor = 'yellow';
+});
+
+box.addEventListener('mouseout', () => {
+   box.style.backgroundColor = 'white';
 });
